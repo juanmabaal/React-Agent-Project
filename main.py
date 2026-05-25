@@ -9,3 +9,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print(os.getenv('DEEPSEEK_API_KEY'))
