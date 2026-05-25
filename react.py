@@ -16,6 +16,6 @@ def triple(num:float) -> float:
 
 tools = (TavilySearch(max_results=1), triple)
 
-# llm= ChatDeepSeek(model="deepseek-v4-flash", temperature=0).bind_tools(tools)
-llm= ChatOpenAI(model="gpt-4o-mini", temperature=0).bind_tools(tools)
+llm= ChatDeepSeek(model="deepseek-chat", temperature=0).bind_tools(tools)
+# llm= ChatOpenAI(model="gpt-4o-mini", temperature=0).bind_tools(tools)
 
